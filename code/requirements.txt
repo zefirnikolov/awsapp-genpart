@@ -1,0 +1,3 @@
+mysql-connector-python==8.0.31
+protobuf==3.19.6
+essential-generators==1.0
