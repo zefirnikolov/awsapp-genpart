@@ -1,6 +1,6 @@
 # https://app.zefirnikolov.com
 
-This is only the **generator** part **microservice** of the whole **Kubernetes Cluster (K8s)** deployed on **Amazon Web Services – AWS**. 
+This is the **generator** part **microservice** of the whole **Kubernetes Cluster (K8s)** deployed on **Amazon Web Services – AWS**. 
 This part is intended for development team + **Dockerfile** and **Jenkinsfile** are intended for the **DevOps** -> Please see the whole cluster on **https://github.com/zefirnikolov/awsapp-k8scluster**
 
 Code folder consists of 2 files -> app.py and requirements.txt. 
