@@ -15,7 +15,7 @@ Part of the code:
 ![generator](gencode.png)
 
 The **Dockerfile**:
-Downloads the main **Docker image**: **python:3.9-slim-buster** -> installs software and makes update of the OS -> installs the python libraries in requirements.txt file -> opens and runs the app.py as the main process of the container.
+Downloads the main **Docker image**: **python:3.9-slim-buster** -> copy the Code folder into the image -> installs software and makes update of the OS -> installs the python libraries in requirements.txt file -> opens and runs the app.py as the main process of the container.
 
 ![dockerfile](docker.png)
 
