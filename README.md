@@ -23,3 +23,5 @@ The **Jenkinsfile**:
 Clones the **git repository** -> creates a **docker image** from the **Dockerfile** -> Push the image with Updated TAG to **Docker Hub** -> triggers the **second Jenkins job responsible** for the cluster repository.
 
 ![jenkinsfile](jenkins.png)
+
+The Jenkins job is with configured webhook - any time a change is made from this repository - It automatically builds this job using the Jenkinsfile.
