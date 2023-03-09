@@ -7,9 +7,9 @@ import time
 counter = 0
 
 while True:
-    generate_two = DocumentGenerator()
-    second_sentence = generate_two.sentence()
-    result = f"{second_sentence}"
+    generate_text = DocumentGenerator()
+    result_sentence = generate_text.sentence()
+    result = f"{result_sentence}"
 
     print(f"New sentences generated: {result}")
 
