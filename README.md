@@ -15,7 +15,7 @@ Part of the code:
 ![generator](gencode.png)
 
 The **Dockerfile**:
-Downloads the main **Docker image**: **python:3.9-slim-buster**(**P.S. - the main image was changed to ***python:latest***, because the slim-buster version was unable to handle the while loop and and the generator and crashed often, the clear python image is sufficient for now**) -> copy the Code folder into the image -> installs software and makes update of the OS -> installs the python libraries in requirements.txt file -> opens and runs the app.py as the main process of the container.
+Downloads the main **Docker image**: **python:3.9-slim-buster**(**P.S. - the main image was changed to ***python:latest***, because the slim-buster version was unable to handle the while loop + the essential_generators library and crashed often. The clear python image is sufficient for now**) -> copy the Code folder into the image -> installs software and makes update of the OS -> installs the python libraries in requirements.txt file -> opens and runs the app.py as the main process of the container:
 
 ![dockerfile](docker.png)
 
